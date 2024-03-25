@@ -42,7 +42,9 @@
         <Compile Include="CoolKontener.cs" />
         <Compile Include="GasKontener.cs" />
         <Compile Include="IHazardNotifier.cs" />
+        <Compile Include="IRefigeratedKontener.cs" />
         <Compile Include="Kontener.cs" />
+        <Compile Include="KontenerShip.cs" />
         <Compile Include="LiquidKontener.cs" />
         <Compile Include="OverfillException.cs" />
         <Compile Include="Program.cs" />

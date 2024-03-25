@@ -14,8 +14,6 @@ namespace Tutorial2
             this.depth = depth;
             this.maxWeight = maxWeight;
         }
-
-        private List<string> serialNumbers = new List<string>();
         public double weight { get; set; }
         public double height { get; }
         public double selfWeight { get; }
@@ -38,7 +36,7 @@ namespace Tutorial2
             weight = 0;
         }
 
-        public void Load(double weight)
+        public virtual void Load(double weight)
         {
             if (maxWeight < weight + selfWeight)
             {

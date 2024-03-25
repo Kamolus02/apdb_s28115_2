@@ -2,8 +2,11 @@
 {
     public class GasKontener : Kontener
     {
-        public GasKontener(double weight, double height, double selfWeight, double depth, double maxWeight) : base(weight, height, selfWeight, depth, maxWeight)
+        
+        public double Pressure { get;  }
+        public GasKontener(double weight, double height, double selfWeight, double depth, double maxWeight, double pressure) : base(weight, height, selfWeight, depth, maxWeight)
         {
+            Pressure = pressure;
         }
     }
 }
